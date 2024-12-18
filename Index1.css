@@ -1,0 +1,7 @@
+#top{color:yellow;}
+li>a{color:yellow;}
+
+p a{color:red;}
+h1,h1+p{color:blueviolet;}
+
+h4,h4~p{color:brown; font-size:500%;}
