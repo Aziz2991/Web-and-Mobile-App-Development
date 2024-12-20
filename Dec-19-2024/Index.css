@@ -1,0 +1,16 @@
+
+.b{letter-spacing: 3em;}
+
+.c{text-decoration: none;}
+.e{vertical-align: text-top;}
+
+.ii{vertical-align:text-top;}
+.home a{color:red;}
+.home a:hover{color:yellow;
+border:solid 3px green;}
+.About a:active{color:yellow;}
+.z a:visited{color:red;
+}
+.Home a:link{background-color: red;}
+.About a:hover{background-color: yellow;}
+.Contact a:visited{background-color:yellow;}
