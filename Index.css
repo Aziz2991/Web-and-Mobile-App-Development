@@ -1,40 +1,16 @@
-body{font-family: arial,sans-serif;
-    margin-left:0;padding:0;background-color: #f3f2ef;
-    color:#333;display: flex;
-    justify-content: center;align-items: center;
-    height:100vh;
+
+.b{letter-spacing: 3em;}
+
+.c{text-decoration: none;}
+.e{vertical-align: text-top;}
+
+.ii{vertical-align:text-top;}
+.home a{color:red;}
+.home a:hover{color:yellow;
+border:solid 3px green;}
+.About a:active{color:yellow;}
+.z a:visited{color:red;
 }
-.container{width: 100%; max-width: 400px;
-background:#fff;border-radius: 8px;
-box-shadow: 0 4px 12px;
-rgba(0,0,0,0.1); padding:20px;}
-.header .logo{font-size: 24px;
-color:#0073b1;
-text-align: center;
-margin-bottom: 20px;}
-
-.signup-box h2{font-size:14px;
-text-align: center;
-color:#333;
-margin-bottom: 5px;}
- .signup-form .form-group{margin-bottom:15px;}
-
- .signup-form input{width:100%;
-padding:10px;
-border:1px solid #ccc; border-radius: 4px;
-font-size:14px;}
-.signup-button{width:100%;
-padding:12px;
-background-color: #0073b1;
-color:white;border:none;
-border-radius:4px;
-font-size: 16px;cursor:pointer;
-}
-.signup-button:hover{background-color:#005582;}
-
-.login-link a{color:#0073b1;text-decoration:none ;}
-.login-link a:hover{text-decoration: underline;}
-
-
-.footer{font-size: 12px; text-align: center;
-margin-top: 20px;color:#666;}
+.Home a:link{background-color: red;}
+.About a:hover{background-color: yellow;}
+.Contact a:visited{background-color:yellow;}
