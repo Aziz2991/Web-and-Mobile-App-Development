@@ -1,31 +1,20 @@
-*{margin:0px;padding:0px;
-    box-sizing:border-box;
-}
+*{margin:0;padding:0;
+font-family: arial,sans-serif;}
 
-nav{width:100%;
-height: 75px;
-line-height: 75px;
-padding-top:0px;
-padding-bottom: 0px;padding-left: 100px;
-padding-right: 100px;position: fixed;
-background-image: linear-gradient(pink,red);
+.navbar{display:flex;
+justify-content: space-between;
+align-items: center;
+padding:10px 20px;background-color: #ff6347;
+color:white;}
 
-}
-nav .logo p{font-size: 30px;
-font-weight: bold;
-float:left;color:blue;
-text-transform: uppercase; letter-spacing: 1.5px;
-cursor:pointer;}
-nav ul{float:right;}
+.logo img{height:50px;}
+nav .links{list-style: none;display: flex;gap:20px;margin:0;padding:0;}
 
-nav li{list-style:none;display: inline-block;}
-nav li a{
 
-font-size:18px;
-text-transform:uppercase;
-padding-top:opx;
-padding-bottom: 0px;padding-left: 30px;padding-left:30px;color:antiquewhite;
-text-decoration: none;}
-nav li a:hover{color:yellow;transition}
-.image{ width:100%;background-size:cover;
-background-position:center;}
+nav .links li a{text-decoration: none;
+color:white;font-weight: bold;font-size: 20px; transition:color 0.3s;}
+
+nav .links li a:hover{background-color:yellow;}
+ nav-icons{display:flex;gap:15px;}
+
+ 

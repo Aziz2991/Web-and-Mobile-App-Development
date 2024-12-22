@@ -1,16 +1,26 @@
 
-.b{letter-spacing: 3em;}
+/*
+.a > li{list-style: none;
+font-size:60px;}
+.z > .p > .u{background-color:red;}
 
-.c{text-decoration: none;}
-.e{vertical-align: text-top;}
+.y .a{color:yellow;}
 
-.ii{vertical-align:text-top;}
-.home a{color:red;}
-.home a:hover{color:yellow;
-border:solid 3px green;}
-.About a:active{color:yellow;}
-.z a:visited{color:red;
-}
-.Home a:link{background-color: red;}
-.About a:hover{background-color: yellow;}
-.Contact a:visited{background-color:yellow;}
+h1~p{color:red;}
+#test{color:yellow;}
+#test{color:yellow;}
+.heading{color:blue;}
+h1{color:red;}
+.heading{color:green !important;}*/
+
+
+
+
+
+
+.u{color:yellow;}
+.u{color:blue;}
+h1{color:green !important;}
+h1{color:red;}
+#y{color:purple;}
+#y{color:aqua;}
