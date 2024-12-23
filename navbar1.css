@@ -1,0 +1,26 @@
+
+
+
+
+body{margin:0;
+padding:0;}
+
+.abc{background-image: linear-gradient(green,pink,gray);
+width:100%;height:70px;
+padding:0px 100px; line-height:70px;}
+
+.logo{font-size: 25px;
+font-weight: bold;text-transform: uppercase;letter-spacing: 1.5px;
+cursor:pointer;
+}
+.abc ul{float:right;}
+
+.abc ul li{list-style:none;
+display:inline-block;}
+
+.id{font-family:.noto-sans-phagspa-regular {
+    font-family: "Noto Sans PhagsPa", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  }
