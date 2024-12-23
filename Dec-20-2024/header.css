@@ -1,0 +1,9 @@
+*{margin:0px;}
+
+header nav{display:flex;
+justify-content: space-between;margin-left: 70px;
+margin-right:70px;}
+
+header nav ul{list-style: none;}
+
+header nav ul li{display: inline;padding-left:30px;}

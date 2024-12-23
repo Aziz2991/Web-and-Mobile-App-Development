@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Noto+Sans+KR:wght@100..900&family=Phetsarath:wght@400;700&display=swap');
+
+
+
+
+/*
+.n{font-weight:bold;
+font-style:italic;
+text-transform:capitalize;}
+.m p{vertical-align:bottom;}
+*/
+.b{text-indent:5px;}
+p{text-indent: 50px;}
+
+.v{text-shadow:-10px -10px 2px gray;}
+.yt{text-shadow:-10px -5px 1px red;}
+
+.o::first-line{font-size: 50px;
+color:red;
+font-family: "Phetsarath", serif;
+font-weight: 400;
+font-style: normal;}
+
+a:visited{color:red;}
+.v:hover{background-color: green;}
+
+.jj:active{background-color: red;}
+
+.qq:active{color:yellow;}
+button:active{background-color:yellowgreen;}
+input:focus{background-color: red;}
