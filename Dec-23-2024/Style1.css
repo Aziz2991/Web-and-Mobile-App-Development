@@ -1,3 +1,37 @@
-@font-face{font-family: pak;
-src:url(''../../Fonts/font.ttf');}
-p{font-family:pak;}
+/* @font-face{font-family: pak; */
+/* src:url(''../../Fonts/font.ttf');} */
+/* p{font-family:pak;} */
+/* .box{width: 200px;
+height:200px;
+background-color: blue;position: absolute;
+
+top-left:0px;
+bottom:0px;
+bottom-right:0px;
+top-right:0px;
+}
+
+
+.box2{width: 200px;
+    height:200px;
+    background-color:red;}
+    .main{width:500px;
+    height:500px;
+border:2px solid black;position: relative;} */
+
+
+/* .b >input{background-color: #fff;
+border:1px solid red; position:relative;padding-left:15px;}
+.b >input:focus{outline:none;}
+.b >img{width: 10px;
+position: absolute; left:10px;top:10px;} */
+
+.box1{float:right;
+    width:200px;
+height: 200px;
+background-color: red;}
+
+.box2{float:right;
+    width:200px;
+    height: 200px;
+    background-color:blue;}
