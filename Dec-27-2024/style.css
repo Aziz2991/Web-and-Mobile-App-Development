@@ -1,0 +1,32 @@
+*{margin:0;
+Padding:0;
+box-sizing: border-box;}
+
+
+body{background-color: pink;}
+header{display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 50px;
+padding-right: 50px;
+height: 60px;}
+
+.right-sec{display: flex;
+align-items: center;
+gap:50px;}
+
+button{width:150px;height: 40px;
+border-radius: 30px;
+border:2px solid pink;padding:5px 26px;background-color: brown;}
+a{text-decoration: none;
+color:black;font-size: 18px;}
+img{position: relative;
+left:320px;bottom: 370px;}
+
+.main-sec{padding-right:50px;
+padding-left: 50px;}
+
+h1{margin-top:70px;font-weight: 500px;font-size: 52px;}
+
+p{margin-top: 40px;color:black;}
+.btn{margin-top: 30px;}

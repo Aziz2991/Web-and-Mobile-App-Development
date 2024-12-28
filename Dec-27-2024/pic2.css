@@ -1,0 +1,10 @@
+*{margin:0px;
+Padding:0px;color:white;background-image:url(C:\Users\abc\Desktop\Web and Mobile App Development\Web-and-Mobile-App-Development\Dec-27-2024\img\mountains-morning-snow-rock-mountain-landscape.png)
+}
+
+header{background-color: #00000080;
+padding:14px; text-align: center;}
+header nav ul{list-style:none;}
+
+header nav ul li{display: inline-block;padding-left:50px;color:white;}
+.u{padding-right:600px;color:white;}
