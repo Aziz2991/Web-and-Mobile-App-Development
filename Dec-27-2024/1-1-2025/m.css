@@ -1,0 +1,7 @@
+*{margin: 0;
+padding:0;box-sizing: border-box;}
+
+.main{background-color: aqua;padding-left:50px;padding-right: 50px;}
+
+.main .sec{width:19%;float:left;background-color: blue;margin-left:12px;}
+.sec{padding:20px;margin-top: 50px;}
