@@ -1,0 +1,23 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+
+.header img{width: 100px;margin-left: 20px;float:left;}
+
+.header h1{font-size: 28px;color: green;float:left;
+}
+.nav{position: relative;
+float:left;}
+.nav a{float:left;display: inline-block;text-decoration: none;padding:10px;background-color: lightgreen;
+color:darkgreen;}
+
+.nav a:hover{background-color: red;
+color:blue;transition: 2s;}
+
+.heading img{width: 
+    600px;position:relative;
+}
+.column div{float:left; margin: 10px;
+padding:10px;border:1px solid;width:31.3%;}
+
+@media screen and(max-width:600px;){.column div{width:100%;}}

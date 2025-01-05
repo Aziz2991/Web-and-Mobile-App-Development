@@ -1,7 +1,13 @@
 *{margin: 0;
 padding:0;box-sizing: border-box;}
 
-.main{background-color: aqua;padding-left:50px;padding-right: 50px;}
+.main{background-color:pink;padding-left:50px;padding-right: 50px;}
 
-.main .sec{width:19%;float:left;background-color: blue;margin-left:12px;}
+.main .sec{width:19%;float:left;background-color:pink;margin-left:12px;}
 .sec{padding:20px;margin-top: 50px;}
+
+@media screen and (max-width:600px){
+    .main .sec{width:auto;background-color:red;}
+}
+
+@media screen and(min-width:400px){.main .sec{width:auto;background-color:green;}}
