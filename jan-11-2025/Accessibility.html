@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web accessibility
+    </title>
+    <link rel="stylesheet" href="Accessibility.css">
+</head>
+<body>
+    <header>
+<nav aria-label="Main Navigation">
+
+<ul class="nav-list">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+    </header>
+    <main>
+<section id="home" tabindex="0">
+    <h1>Welcome to our website</h1>
+    <p>Your journey to accessibility starts here</p>
+</section>
+<section id="about" tabindex="0"><h2>About Us</h2>
+<p>We are committed to creating an inclusive web for everyone</p>
+</section>
+<section id="services" tabindex="0">
+<h2>Our Services</h2>
+<ul><li>Web Design</li>
+<li>accessibility Audits</li>
+<li>Consulting</li></ul>
+</section>
+<section id="contacts" tabindex="0">
+    <h2>contact us</h2>
+    <form><label for="name">Name:</label>
+    <input type="text" id="name" name="name" required aria-required="true">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required aria-required="true">
+<label for="message">Message:</label>
+<textarea name="message" id="message" required aria-required="true"></textarea>
+<button type="submit">send</button>
+</form>
+</section>
+    </main>
+<footer>
+    <p>&copy; 2025 Accessible Web. All Rights Reserved.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

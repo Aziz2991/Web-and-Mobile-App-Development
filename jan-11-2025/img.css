@@ -1,0 +1,8 @@
+.container{position: relative;display: inline-block;}
+.image{display: block;width: 100%;height: auto;}
+.text{position: absolute;top:50%;right:50%;}
+
+.part2{position: relative;display: inline-block;}
+.part2-image{width: 100%;height: auto;display: block;}
+.part2-text{position:absolute;
+top:50%;left:50%;}
